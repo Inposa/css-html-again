@@ -1,0 +1,30 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+thead tr {
+  background-color: rgb(29, 29, 134);
+}
+
+thead th {
+  color: white;
+  text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.text_align_right {
+  text-align: right;
+}
